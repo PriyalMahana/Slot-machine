@@ -13,7 +13,9 @@ A simple and fun Slot Machine Game built using python.This project is perfect fo
 # Project Structure
 
 slot-machine/
+<br>
 │── slot_machine.py        # Main game file
+<br>
 │── README.md              # Project documentation
 
 # 🛠️ Technologies used
