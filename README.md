@@ -38,4 +38,5 @@ slot-machine/
 4. If symbols match on selected lines, the player wins money based on symbol value.
 5. Continue playing until balance becoms zero or player quits.
 
+# I HOPE YOU ENJOYY!
 # THANKS FOR YOUR TIME!
