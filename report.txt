@@ -1,0 +1,58 @@
+Slot Machine Game – Project Report
+
+1. Introduction
+
+This project is a simple Slot Machine game implemented in Python. It
+demonstrates the use of loops, functions, random number generation,
+conditional logic, and user interaction in console-based programs.
+
+2. Problem Statement
+
+The objective is to design a program that simulates a Slot Machine. The
+game should allow the user to deposit money, place bets, spin the slot,
+and calculate winnings based on matching symbols.
+
+3. Objectives
+
+-   To understand basic Python programming.
+-   To implement game logic using functions.
+-   To work with random number generation.
+-   To enhance logical thinking by creating a real-world game
+    simulation.
+
+4. Methodology
+
+1.  The user deposits money.
+2.  The game asks the player how many lines they want to bet on.
+3.  Symbols are randomly generated using Python’s random module.
+4.  Winnings are calculated based on matched symbols.
+5.  The game continues until the balance becomes zero or the user quits.
+
+5. Code Explanation
+
+The code uses: - random.choice() to pick symbols. - Functions to
+separate logic: - deposit() - get_bet() - spin_slot_machine() -
+check_winnings() - Loops for continuous gameplay.
+
+6. Sample Output
+
+Example:
+
+    --- Spinning ---
+    🔔 | 🌸 | 🔔
+    🌸 | 🔔 | 🌸
+    ✨ | ✨ | ✨   ← WIN! 
+
+    You won ₹50!
+    Current balance: ₹120
+
+7. Conclusion
+
+This project helped understand Python’s core concepts, including loops,
+functions, and randomization while developing a small but fun console
+game.
+
+8. References
+
+-   Python Documentation
+-   Online tutorials and study materials
