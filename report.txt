@@ -9,7 +9,7 @@ conditional logic, and user interaction in console-based programs.
 2. Problem Statement
 
 The objective is to design a program that simulates a Slot Machine. The
-game should allow the user to deposit money, place bets, spin the slot,
+game has $100 at the beginning and allow the user to place bets, spin the slot,
 and calculate winnings based on matching symbols.
 
 3. Objectives
@@ -30,9 +30,9 @@ and calculate winnings based on matching symbols.
 
 5. Code Explanation
 
-The code uses: - random.choice() to pick symbols. - Functions to
-separate logic: - deposit() - get_bet() - spin_slot_machine() -
-check_winnings() - Loops for continuous gameplay.
+The code uses: - random.choice() to pick symbols. 
+- Functions to separate logic: -spin_row() -print_row() -get_payout()
+- Loops for continuous gameplay until you spends all your money.
 
 6. Sample Output
 
@@ -43,8 +43,8 @@ Example:
     🌸 | 🔔 | 🌸
     ✨ | ✨ | ✨   ← WIN! 
 
-    You won ₹50!
-    Current balance: ₹120
+    You won $50!
+    Current balance: $300
 
 7. Conclusion
 
