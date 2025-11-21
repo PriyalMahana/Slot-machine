@@ -66,6 +66,6 @@ while balance > 0:
     
     play_again = input('Do you wanna spin again? If yes type "Yes" else "No". Any other input will be considered No: ').strip().upper()
     if play_again != "YES" or balance == 0:
-        break
+        break 
 print(f"GAME OVER! Your final balance is {balance}")
 print("______________________________________")
