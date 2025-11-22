@@ -24,7 +24,7 @@ def get_payout(row, bet):
             return int(bet * 3)
     return 0
 
-balance = int(input("Enter your balance: "))
+balance = int(input("Enter amount to deposit as balance: "))
 
 print("____________________________")
 print("Welcome to the Slot Machine!")
