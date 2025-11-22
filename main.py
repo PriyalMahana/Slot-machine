@@ -24,7 +24,7 @@ def get_payout(row, bet):
             return int(bet * 3)
     return 0
 
-balance = 100
+balance = int(input("Enter your balance: "))
 
 print("____________________________")
 print("Welcome to the Slot Machine!")
@@ -67,5 +67,6 @@ while balance > 0:
     play_again = input('Do you wanna spin again? If yes type "Yes" else "No". Any other input will be considered No: ').strip().upper()
     if play_again != "YES" or balance == 0:
         break 
+
 print(f"GAME OVER! Your final balance is {balance}")
 print("______________________________________")
