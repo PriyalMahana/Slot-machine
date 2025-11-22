@@ -9,7 +9,7 @@ conditional logic, and user interaction in console-based programs.
 2. Problem Statement
 
 The objective is to design a program that simulates a Slot Machine. The
-game has $100 at the beginning and allow the user to place bets, spin the slot,
+game has deposit money at the beginning and allow the user to place bets, spin the slot,
 and calculate winnings based on matching symbols.
 
 3. Objectives
