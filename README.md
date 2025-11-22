@@ -6,7 +6,7 @@ A simple and fun Slot Machine Game built using python.This project is perfect fo
 
   - Randomized slot spins
   - Betting system
-  - Win dlection (rows, sybols matching, etc.)
+  - Win detection (rows, sybols matching, etc.)
   - Replay option
   - Clean, Modular code structure
 
@@ -33,11 +33,11 @@ slot-machine/
 
 # How does this Game Works
 
-1. At beginning player has $100.
+1. The player deposits his money.
 2. The player places a bet.
 3. The slot machine spins and randomly generates symbols.
 4. If symbols match on selected lines, the player wins money based on symbol value.
-5. Continue playing until balance becoms zero or player quits.
+5. Continue playing until balance becomes zero or player quits.
 
 # I HOPE YOU ENJOYY!
 # THANKS FOR YOUR TIME!
